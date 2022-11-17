@@ -104,7 +104,13 @@ p {
 
 /* IMAGES */
 
-.img-logo {
+.logo {
+  max-width: 80%;
+  width: 20%;
+  height: 20%;
+}
+
+.logo img {
   width: 100%;
   height: auto;
   display: block;
