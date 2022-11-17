@@ -103,10 +103,6 @@ p {
 }
 
 /* IMAGES */
-.img {
-  background-size: contain;
-  background-repeat: no-repeat;
-}
 
 .img-logo {
   background-image: url('src/logo.png');
