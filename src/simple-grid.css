@@ -34,13 +34,13 @@ body {
   font-style: normal;
   font-stretch: normal;
   color: #333333;
-  line-height: 1.5;
 }
 
 /* TYPOGRAPHY */
 
 h1 {
-  font-size: 4rem;
+  font-size: 3.5rem;
+  line-height: 1.25;
 }
 
 h2 {
