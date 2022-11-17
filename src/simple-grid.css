@@ -105,7 +105,6 @@ p {
 /* IMAGES */
 
 .img-logo {
-  background-image: url('src/logo.png');
   background-size: contain;
   height: 64px;
   width: 106px;
