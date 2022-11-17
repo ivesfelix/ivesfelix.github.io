@@ -105,9 +105,8 @@ p {
 /* IMAGES */
 
 .img-logo {
-  background-size: contain;
-  height: 64px;
-  width: 106px;
+  width: 100%;
+  display: block;
 }
 
 
