@@ -75,12 +75,6 @@ h2 {
   padding-top: 300px;
 }
 
-@media only screen and (max-width: 425px) { 
-  .container {
-    padding-top: 10px;
-  }
-}
-
 .row {
   position: relative;
   width: 100%;
@@ -103,3 +97,15 @@ h2 {
 }
 
 
+/* responsive */
+@media only screen and (max-width: 425px) { 
+  h1 {
+  font-size: 4rem;
+  font-weight: 200;
+  }
+
+  h2 {
+  font-size: 3rem;
+  letter-spacing:1.5px;
+  }
+}
