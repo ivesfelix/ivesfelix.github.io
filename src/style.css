@@ -1,8 +1,17 @@
 @font-face {
-font-family: 'Founders Grotesk';
-src: url('CFoundersGroteskWeb-Regular.woff2') format('woff2'),
+font-family: 'FoundersGroteskRegular';
+src: url('FoundersGroteskWeb-Regular.woff2') format('woff2'),
 url('FoundersGroteskWeb-Regular.woff') format('woff');
-font-weight: 100;
+font-weight: 400;
+font-style: normal;
+font-stretch: normal;
+}
+
+@font-face {
+font-family: 'FoundersGroteskMedium';
+src: url('FoundersGroteskWeb-Medium.woff2') format('woff2'),
+url('FoundersGroteskWeb-Medium.woff') format('woff');
+font-weight: 600;
 font-style: normal;
 font-stretch: normal;
 }
@@ -22,7 +31,7 @@ body {
 /* root font */
 
 * {
-  font-family: 'Founders Grotesk';
+  font-family: 'FoundersGroteskRegular';
   font-weight: 400;
   font-style: normal;
   font-stretch: normal;
@@ -31,15 +40,15 @@ body {
 
 /* typography */
 
-
 h1 {
   font-size: 1.5rem;
-  font-weight: 200;
+  padding-bottom: 8px;
 }
 
 h2 {
-  font-size: 1rem;
-  letter-spacing:1.5px;
+  font-family: 'FoundersGroteskMedium';
+  font-size: .75rem;
+  letter-spacing: 1.5px;
 }
 
 
@@ -57,6 +66,7 @@ h2 {
 .logo {
   max-width: 356px;
   padding-bottom:40px;
+  padding-left:30px;
 }
 
 .logo img {
@@ -72,7 +82,7 @@ h2 {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 300px;
+  padding-top: 200px;
 }
 
 .row {
@@ -97,15 +107,28 @@ h2 {
 }
 
 
-/* responsive */
-@media only screen and (max-width: 425px) { 
+/* 680px */
+
+@media screen and (max-width:681px) {
+
+  .container {
+  width: 90%;
+  padding-top: 100px;
+  }
+
+  .logo {
+  max-width: 200px;
+  padding-bottom: 20px;
+  padding-left:20px;
+  }
+
   h1 {
-  font-size: 4rem;
-  font-weight: 200;
+  font-size: 1.5rem;
   }
 
   h2 {
-  font-size: 3rem;
+  font-size: 1rem;
   letter-spacing:1.5px;
+  line-height:1.5rem;
   }
 }
