@@ -36,7 +36,7 @@ body {
   font-style: normal;
   font-stretch: normal;
   color: #333333;
-  cursor: url(https://ivesfelix.github.io/src/cursor.cur) auto;
+  cursor: url(https://ivesfelix.github.io/src/cursor.cur) 0 0, auto;
 }
 
 /* typography */
@@ -57,7 +57,7 @@ a {
   position: relative;
   text-decoration: none;
   font-family: 'FoundersGroteskMedium';
-  cursor: url(https://ivesfelix.github.io/src/cursor.cur), auto;
+  cursor: url(https://ivesfelix.github.io/src/cursor.cur) 0 0, auto;
 }
 
 a::before {
