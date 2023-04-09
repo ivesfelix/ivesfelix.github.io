@@ -36,7 +36,6 @@ body {
   font-style: normal;
   font-stretch: normal;
   color: #333333;
-  cursor: url(https://ivesfelix.github.io/src/cursor.cur) 0 0, auto;
 }
 
 /* typography */
@@ -57,7 +56,6 @@ a {
   position: relative;
   text-decoration: none;
   font-family: 'FoundersGroteskMedium';
-  cursor: url(https://ivesfelix.github.io/src/cursor.cur) 0 0, auto;
 }
 
 /* positioning */
@@ -112,17 +110,6 @@ a {
 	content: "";
 	display: table;
 	clear: both;
-}
-
-.trail {
-  position: absolute;
-  height: 20px;
-  width: 20px;
-  border-radius: 100%;
-  opacity: 0.05;
-  transform: translate(20%, 20%) scale(1);
-  background: #E95E56;
-  box-shadow:0 0 4px 4px #E95E56;
 }
 
 
