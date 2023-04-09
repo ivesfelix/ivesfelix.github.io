@@ -60,25 +60,6 @@ a {
   cursor: url(https://ivesfelix.github.io/src/cursor.cur) 0 0, auto;
 }
 
-a::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 1px;
-    border-radius: 0px;
-    background-color: #18272F;
-    bottom: 0;
-    left: 0;
-    transform-origin: right;
-    transform: scaleX(0);
-    transition: transform .3s ease-in-out;
-  }
-
-a:hover::before {
-  transform-origin: left;
-  transform: scaleX(1);
-}
-
 /* positioning */
 
 .center {
