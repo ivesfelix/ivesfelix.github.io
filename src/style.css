@@ -58,6 +58,10 @@ a {
   font-family: 'FoundersGroteskMedium';
 }
 
+a.hover {
+  text-decoration: underline;
+}
+
 /* positioning */
 
 .center {
@@ -116,14 +120,6 @@ a {
 /* 680px */
 
 @media screen and (max-width:681px) {
-
-  *, a {
-  cursor: default;
-  }
-
-  .trail {
-    display:none;
-  }
 	
   .container {
   width: 90%;
